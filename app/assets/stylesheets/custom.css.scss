@@ -55,3 +55,38 @@
 .btn-primary:visited, .btn-danger:visited {
   color: #fff;
 }
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: asset-url('101.jpg');
+  background-position: 50% 50%;
+  background-size: 1150px 375px;
+  color: #fff;
+  font-family: 'verdna' !important;
+  font-stretch: expanded;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
